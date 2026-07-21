@@ -1208,14 +1208,14 @@
           padding: 64px 24px;
         }
         .ab-photo {
-    display: block;
-    width: 100%;
-    max-width: 280px;
-    aspect-ratio: 3/4;
-    object-fit: cover;
-    border-radius: var(--r);
-    margin-bottom: 24px;
-  }
+          display: block;
+          width: 100%;
+          max-width: 280px;
+          aspect-ratio: 3/4;
+          object-fit: cover;
+          border-radius: var(--r);
+          margin-bottom: 24px;
+        }
         .lg-grid {
           grid-template-columns:  1fr;
         }
@@ -1228,6 +1228,39 @@
         .fg {
           grid-template-columns: 1fr 1fr;
         }
+        .xi {
+          grid-template-columns: 1fr;
+          padding-left: 0;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+        .xi-bg{
+          position: static;
+    width: 100%;
+    height: 200px;
+    border-radius: var(--r);
+    order: -1;
+        }
+        .xi-bg::after{
+          display: none;
+        }
+        .xi-idx {
+    display: none;
+  }
+  .xi-org {
+    justify-content: center;
+  }
+  .xi-text {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .xi .pc-lnk {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
       }
       @media (max-width: 580px) {
         :root {
