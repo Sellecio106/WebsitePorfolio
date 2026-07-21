@@ -276,6 +276,7 @@
         z-index: 0;
       }
       .hero-bgw {
+        display: none;
         position: absolute;
         bottom: -10px;
         right: 0;
@@ -289,6 +290,25 @@
         line-height: 1;
         letter-spacing: 0.04em;
       }
+      #hero::before {
+        content: "";
+    position: absolute;
+    inset: 0;
+    background: url("photo/myself.webp") center 20% / cover no-repeat;
+    opacity: 0.25;
+    z-index: 0;
+      }
+      #hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(8, 8, 8, 0.55) 0%,
+      rgba(8, 8, 8, 0.95) 75%
+    );
+    z-index: 0;
+  }
       .hero-l {
         padding: 56px 0 80px 40px;
         position: relative;
@@ -1341,7 +1361,7 @@
       </div>
       <div class="hero-r">
         <div class="photo-w">
-          <img src="photo/myself.png" />
+          <img src="photo/ldkm.JPG" />
         </div>
       </div>
     </section>
@@ -1659,7 +1679,7 @@
             Redesigned the TOMORO Coffee mobile app based on insights gathered from 500+ Google Play Store reviews. Through UX research, heuristic evaluation, and interface redesign, the project addressed critical usability issues to improve navigation, streamline the ordering process, and enhance the overall user experience.
           </div>
           <a
-            href="https://drive.google.com/file/d/1O3sz6DQuAVWY73i5MuBe6e9rtl101yca/view?usp=sharing"
+            href="https://drive.google.com/file/d/1WBxsIt3bTMjKQZRSUkZK2GbTWfzFnPU3/view?usp=sharing"
             class="pc-lnk"
             >See Detail
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
