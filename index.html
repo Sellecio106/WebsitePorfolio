@@ -104,15 +104,15 @@
         letter-spacing: 0.12em;
       }
       .logo-box {
-        width: 80px; /* atur ukuran logo */
-        height: 80px; /* biar konsisten */
+        width: 120px; /* atur ukuran logo */
+        height: auto; /* biar konsisten */
         display: flex;
         align-items: center;
         justify-content: center;
       }
 
       .logo-box img {
-        width: 100%;
+        width: auto;
         height: 100%;
         object-fit: contain; /* biar ga gepeng */
       }
@@ -595,7 +595,7 @@
       }
       .proj-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2px;
         padding: 0 40px 96px;
       }
@@ -1178,10 +1178,6 @@
           gap: 36px;
           padding: 64px 24px;
         }
-        .proj-grid {
-          grid-template-columns: 1fr 1fr;
-          padding: 0 24px 64px;
-        }
         .lg-grid {
           grid-template-columns: repeat(2, 1fr);
         }
@@ -1252,39 +1248,6 @@
           flex-direction: column;
           gap: 7px;
           text-align: center;
-        }
-        .xi {
-          padding-left: 0; /* reset dari 260px */
-          display: flex;
-          flex-direction: column;
-          gap: 0;
-        }
-        .xi-bg {
-          position: relative;
-          width: 100%;
-          height: 220px;
-          order: -1;
-        }
-        .xi-bg::after {
-          background: linear-gradient(
-            to top,
-            #080808 0%,
-            rgba (8, 8, 8, 0.4) 60%,
-            transparent 100%
-          );
-        }
-        .xi-idx {
-          display: none;
-        }
-        .xi-role {
-          font-size: 1rem;
-          margin-top: 10px; /* ← jarak lebih lega */
-        }
-        .xi-org {
-          margin-bottom: 14px; /* ← jarak lebih lega */
-        }
-        .xi-text {
-          line-height: 1.9; /* ← spasi antar baris lebih longgar */
         }
       }
     </style>
@@ -1407,9 +1370,9 @@
         <div class="eye">About Me</div>
         <h2 class="stitle">SHAPING<br />IDEAS INTO<br />IMPACT</h2>
         <p>
-          I'm a <strong>Computer Science</strong>graduate
+          I'm a <strong>Computer Science</strong> graduate
           <strong
-            >specializing in UI/UX Researcher, Event Organizer and Digital
+            >specializing in UI/UX Design, Event Organizer and Digital
             Marketer.</strong
           >
           I'm focused on creating intuitive and
@@ -1493,7 +1456,7 @@
           ></div>
         </div>
         <div class="pc-c">
-          <div class="pc-num"></div>
+          <div class="pc-num">01</div>
           <div class="pc-name">MINDLY</div>
           <div class="pc-desc">
             A mental wellness app designed to help users track mood, journal
@@ -1521,7 +1484,7 @@
         <div class="pc-bg">
           <div class="pc-bg">
             <img
-              src="photo/kelola.png"
+              src="photo/Kelola.png"
               alt="Kelola app"
               style="width: 100%; height: 100%; object-fit: cover"
             />
@@ -1541,14 +1504,16 @@
           ></div>
         </div>
         <div class="pc-c">
-          <div class="pc-num"></div>
+          <div class="pc-num">02</div>
           <div class="pc-name">KELOLA</div>
           <div class="pc-desc">
             A smart platform for transactions, investing, and financial
             management—designed to help you understand and take control of your
             financial future.
           </div>
-          <a href="#" class="pc-lnk"
+          <a
+            href="https://drive.google.com/file/d/16gZKceUNGV7xw7Nj-b84xRwMlifzRDkT/view?usp=sharing"
+            class="pc-lnk"
             >See Detail
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -1567,7 +1532,7 @@
         <div class="pc-bg">
           <div class="pc-bg">
             <img
-              src="photo/yam.png"
+              src="photo/YAM.png"
               alt="YAM Website"
               style="width: 100%; height: 100%; object-fit: cover"
             />
@@ -1587,7 +1552,7 @@
           ></div>
         </div>
         <div class="pc-c">
-          <div class="pc-num"></div>
+          <div class="pc-num">03</div>
           <div class="pc-name">Yakes Account Manager (YAM)</div>
           <div class="pc-desc">
             A data-driven dashboard that transforms complex employee performance
@@ -1606,17 +1571,111 @@
           ></a>
         </div>
       </div>
+      <div
+        class="pc rev d3"
+        style="background: linear-gradient(160deg, #0a1a0e, #0d1a0a)"
+      >
+        <div class="pc-bg">
+          <div class="pc-bg">
+            <img
+              src="photo/Screenshot 2026-06-28 143701.png"
+              alt="HIRO Clean"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.85) 0%,
+                rgba(0, 0, 0, 0.4) 50%,
+                rgba(0, 0, 0, 0.2) 100%
+              );
+              z-index: 1;
+            "
+          ></div>
+        </div>
+        <div class="pc-c">
+          <div class="pc-num">04</div>
+          <div class="pc-name">HIRO CLEAN</div>
+          <div class="pc-desc">
+            A minimalist brand identity built on geometric strength and clean
+            typography. The hidden "H" icon paired with a green and navy palette
+            positions HIRO clean as a modern, trustworthy household brand with
+            long-term scalability.
+          </div>
+          <a
+            href="https://drive.google.com/file/d/1O3sz6DQuAVWY73i5MuBe6e9rtl101yca/view?usp=sharing"
+            class="pc-lnk"
+            >See Detail
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              /></svg
+          ></a>
+        </div>
+      </div>
+      <div
+        class="pc rev d3"
+        style="background: linear-gradient(160deg, #0a1a0e, #0d1a0a)"
+      >
+        <div class="pc-bg">
+          <div class="pc-bg">
+            <img
+              src="photo/tomoro_coffe.jpg"
+              alt="Tomoro Coffee"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.85) 0%,
+                rgba(0, 0, 0, 0.4) 50%,
+                rgba(0, 0, 0, 0.2) 100%
+              );
+              z-index: 1;
+            "
+          ></div>
+        </div>
+        <div class="pc-c">
+          <div class="pc-num">05</div>
+          <div class="pc-name">Tomoro Coffee UX AUDIT</div>
+          <div class="pc-desc">
+            Redesigned the TOMORO Coffee mobile app based on insights gathered from 500+ Google Play Store reviews. Through UX research, heuristic evaluation, and interface redesign, the project addressed critical usability issues to improve navigation, streamline the ordering process, and enhance the overall user experience.
+          </div>
+          <a
+            href="https://drive.google.com/file/d/1O3sz6DQuAVWY73i5MuBe6e9rtl101yca/view?usp=sharing"
+            class="pc-lnk"
+            >See Detail
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              /></svg
+          ></a>
+        </div>
+      </div>
     </div>
 
     <!-- LOGOS -->
     <section id="logos" class="sec" style="background: #050505">
       <div class="lg-hdr rev">
-        <div>
           <div class="bigbg" style="font-size: clamp(46px, 9vw, 130px)">
             LOGO
           </div>
           <div class="eye" style="margin-top: -8px">Brand &amp; Identity</div>
-        </div>
+      </div>
         <p class="lg-desc">
           A collection of logo designs and visual identities—each mark crafted
           to communicate the core values of a brand or organization
@@ -1629,23 +1688,36 @@
           </div>
           <div class="ll">DPM FILKOM</div>
         </div>
-        <div class="lc rev d1">
+        <a
+          href="https://drive.google.com/file/d/1y9HmDwkPoUQaFckV9Qi97RgZIoz_CUDo/view?usp=drive_link"
+          target="_blank"
+          rel="noopener"
+          class="lc rev d1"
+          style="text-decoration: none"
+        >
           <div class="logo-box">
-            <img src="photo/gisanada_logo.png" alt=" Gisanada" />
+            <img src="photo/gisanada_logo.png" alt="Gisanada" />
           </div>
           <div class="ll">GISANADA Choir</div>
-        </div>
+        </a>
         <div class="lc rev d2">
           <div class="logo-box">
             <img src="photo/logo_hut_ri.png" alt="PY6" />
           </div>
           <div class="ll">HUT RI Committee</div>
         </div>
-        <div class="lc rev d3">
+        <a href="https://drive.google.com/file/d/1ymAtShMU2SQwB4UeuoGLR-lyQovghi-_/view?usp=sharing"
+        target="_blank"
+        rel="noopener"
+        class="lc rev d1"
+        style="text-decoration: none;"
+        >
           <div class="logo-box">
-            <img src="photo/logo_kelbes.png" alt="kelbes" />
+              <img src="photo/pt pure essence.png" alt="pen" />
           </div>
-          <div class="ll">Keluarga Besar FILKOM</div>
+          <div class="ll">PT Pure Essence Nusantara</div>
+      </a>
+        
         </div>
       </div>
     </section>
@@ -1664,7 +1736,7 @@
             />
           </div>
           <div class="eb">
-            <div class="ey">2024 · FILKOM UNIDA Bogor</div>
+            <div class="ey">2024 · FILKOM UIKA Bogor</div>
             <div class="etitle">
               BASIC LEADERSHIP TRAINING (LDKM)<br />FACULTY OF COMPUTER SCIENCE
             </div>
@@ -1804,7 +1876,7 @@
             <div class="xi-role">
               Kepala HRD — Head of Human Resources Development
             </div>
-            <div class="xi-org">GISANADA Choir Organization · 2025 - 2026</div>
+            <div class="xi-org">GISANDA Choir Organization · 2025 - 2026</div>
             <div class="xi-text">
               Responsible for member recruitment, development, and retention.
               Built a collaborative team environment and coordinated training
@@ -1839,7 +1911,9 @@
           <div class="xi-idx"></div>
           <div>
             <div class="xi-role">Choir Instructor — School Choir Club</div>
-            <div class="xi-org">SMK Amaliah, Bogor · 2023 - 2026</div>
+            <div class="xi-org">
+              SMK Amaliah, Bogor · 2023 - 2026 | SMPN 17 Kota Bogor, 2026 - Now
+            </div>
             <div class="xi-text">
               Guided vocational high school students in vocal technique, musical
               expression, and stage performance. Fostered discipline,
@@ -1880,7 +1954,7 @@
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            0895394067862
+            0895390467862
           </a>
           <a href="mailto:syahrul.ferdyansyah@gmail.com" class="cl">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
